@@ -8,7 +8,7 @@ Add-Type -AssemblyName PresentationCore, PresentationFramework
 $Xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="350" Height="200">
 <Grid Margin="11,3,-11,-3">
- <Label HorizontalAlignment="Left" VerticalAlignment="Top" Content="HANSENBERG IT-Toolkit" Margin="8,8,0,0" Name="Title" FontSize="24" FontWeight="Bold"/>
+ <Label HorizontalAlignment="Left" VerticalAlignment="Top" Content="IT-Toolkit" Margin="8,8,0,0" Name="Title" FontSize="24" FontWeight="Bold"/>
  <Label HorizontalAlignment="Left" VerticalAlignment="Top" Content="Backup" Margin="8,40,0,0" FontSize="20"/>
  <Button Content="Opret backup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="13,80,0,0" Name="createBackupBTN"/>
  <Button Content="Gendan backup" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="120,80,0,0" Name="restoreBackupBTN"/>
